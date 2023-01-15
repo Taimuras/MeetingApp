@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E2379E722973DA6300FB002C /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2379E712973DA6300FB002C /* History.swift */; };
+		E2379E742973DECF00FB002C /* ScrumStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2379E732973DECF00FB002C /* ScrumStore.swift */; };
 		E28B62EE296D3CAB0081C014 /* MeetingAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28B62ED296D3CAB0081C014 /* MeetingAppApp.swift */; };
 		E28B62F0296D3CAB0081C014 /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28B62EF296D3CAB0081C014 /* MeetingView.swift */; };
 		E28B62F2296D3CAC0081C014 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E28B62F1296D3CAC0081C014 /* Assets.xcassets */; };
@@ -29,6 +30,7 @@
 
 /* Begin PBXFileReference section */
 		E2379E712973DA6300FB002C /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
+		E2379E732973DECF00FB002C /* ScrumStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumStore.swift; sourceTree = "<group>"; };
 		E28B62EA296D3CAB0081C014 /* MeetingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeetingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E28B62ED296D3CAB0081C014 /* MeetingAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingAppApp.swift; sourceTree = "<group>"; };
 		E28B62EF296D3CAB0081C014 /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 				E28B62FC296D3FEA0081C014 /* Theme.swift */,
 				E28B62FE296D40610081C014 /* DailyScrum.swift */,
 				E2379E712973DA6300FB002C /* History.swift */,
+				E2379E732973DECF00FB002C /* ScrumStore.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -235,6 +238,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2379E742973DECF00FB002C /* ScrumStore.swift in Sources */,
 				E2F87AEE296E8BEB006045F3 /* ThemePicker.swift in Sources */,
 				E2F87AF4296EB836006045F3 /* ScrumProgressViewStyle.swift in Sources */,
 				E2F87AF9296EB9FD006045F3 /* MeetingFooterView.swift in Sources */,
