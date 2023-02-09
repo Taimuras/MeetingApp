@@ -144,6 +144,8 @@ extension SFSpeechRecognizer {
         await withCheckedContinuation { continuation in
             requestAuthorization { status in
                 continuation.resume(returning: status == .authorized)
+                print("asdu")
+                print("asdbh")
             }
         }
     }
